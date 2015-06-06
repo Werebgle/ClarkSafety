@@ -1,26 +1,145 @@
 html, body { 
-margin: 0;
-padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body { 
-font: 73% Arial, Helvetica, Tahoma, sans-serif;
-color: #555;
-background-color: #C2D6D6;
+	font: 73% Arial, Helvetica, Tahoma, sans-serif;
+	color: #555;
+	background-color: #C2D6D6;
 }
 
 #sideBorders {
-width: 80%;
-margin-left: auto;
-margin-right: auto;
-padding: 0;
-color: #555;
-background-color: #FFF;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	color: #555;
+	background-color: #FFF;
 }
 
 #topBorder { 
-height: 125px;
-padding: 0;
-margin-bottom: 0;
-background-color: #008A2E;
+	height: 125px;
+	padding: 0;
+	margin-bottom: 0;
+	background-color: #008A2E;
+}
+
+#menuBox {
+	height: 24px;
+	background: #000;
+	display: block;
+	padding: 10px 0 0 0;
+}
+
+#menu {
+	position: relative;
+	display: block;
+	height: 24px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0;
+	list-style-type: none;
+	width: auto;
+}
+
+#menu ul li {
+	display: block;
+	float: left;
+	margin: 0 1px 0 0;
+}
+
+#menu ul li a {
+	display: block;
+	float: left;
+	color: #FFF;
+	text-decoration: none;
+	padding: 5px 20px 0 20px;
+	height: 19px;	
+	background-color: #19A347;
+}
+
+#menu ul li a:hover {
+	color: #FFF;	
+	background-color: #4C4C33;
+}
+
+#menu ul li a.current, #menu ul li a.current:hover {
+	color: #000;
+	background: #FFF;
+}
+
+#main { 
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	padding: 0;
+	line-height: 1.8em;
 } 
+			
+#mainContent { 
+	padding: 1em;
+	margin: 0;
+	border-right: 1px solid #EEE;
+	} 
+
+#footer { 
+	height: 50px;
+	padding: 0;
+	margin-bottom: 0;
+	margin-top: 40px;
+	text-align: center;
+	border-top: 5px solid #000;
+	color: #FFF;
+	background: #008A2E;
+}
+
+.copywrite {
+	padding-top: 1px;
+}
+
+a:link, a:visited { 
+	color: #FFF;
+	background: inherit;
+	text-decoration: underline;
+}
+
+a:hover { 
+	color:  #636363;
+	background: inherit;
+	text-decoration: none;
+} 
+
+h1 { 
+	float: left;
+	margin: 0;
+	padding: 50px 0 20px 25px;
+	font: 300% Helvetica, Arial, Tahoma, sans-serif;
+	letter-spacing: 5px;
+	color: #FFF;
+} 
+
+h2 { 
+	float: right;
+	margin: 0;
+	padding: 25px 20px 20px 0;
+	font: 90% Helvetica, Arial, Tahoma, sans-serif;
+	letter-spacing: 3px;
+	color: #FFF;
+} 
+
+h3 { 
+	margin: 0;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #AAA;
+	font: 150% Helvetica, Arial, Tahoma, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #E80202;
+}
