@@ -4,7 +4,7 @@ html, body {
 }
 
 body { 
-	font: 73% Arial, Helvetica, Tahoma, sans-serif;
+	font: 75% Arial, Helvetica, Tahoma, sans-serif;
 	color: #555;
 	background-color: #C2D6D6;
 }
@@ -87,6 +87,7 @@ body {
 	padding: 1em;
 	margin: 0;
 	border-right: 1px solid #EEE;
+	font-size: 125%;
 	} 
 
 #footer { 
@@ -151,12 +152,11 @@ h3 {
 	background-color: #008A2E;
 	border-radius: 5px;
 	padding: 10px;
-	color: #fff;
-	font: 125% Arial;
+	color: #fff;	
 }
 
 .servicePoints {
-	font-size: 1.30em;
+	font-size: 1.0em;
 	line-height: 1.5em;
 }
 
