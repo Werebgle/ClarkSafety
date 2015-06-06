@@ -143,3 +143,23 @@ h3 {
 	letter-spacing: 3px;
 	color: #E80202;
 }
+
+.tooltip {
+	display: none;
+	position: absolute;
+	border: 1px solid #333;
+	background-color: #008A2E;
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+	font: 125% Arial;
+}
+
+.servicePoints {
+	font-size: 1.30em;
+	line-height: 1.5em;
+}
+
+.serviceSubPoints {
+	list-style-type: disc;
+}
