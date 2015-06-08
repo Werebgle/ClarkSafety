@@ -168,3 +168,14 @@ h3 {
 #headerContact {
 	list-style-type: none;
 }
+
+#logo {
+	float: left;
+	padding-left: 2px;
+	padding-top: 2px;
+	padding-right: 20px;
+	width: 122px;
+	height: 122px;
+}
+
+
